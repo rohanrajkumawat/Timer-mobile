@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, viewport-fit=cover">
+    <title>Sleep Guard Clock - Always On Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock">
+            <div class="time" id="time">--:--:--</div>
+            <div class="date" id="date">Loading...</div>
+            <div class="ampm" id="ampm"></div>
+        </div>
+        <div class="controls">
+            <button id="preventSleepBtn" class="active">🔒 Screen ON</button>
+            <button id="allowSleepBtn">💤 Allow Sleep</button>
+        </div>
+        <div class="info">
+            <p>⚡ Screen will stay ON while "Screen ON" is active</p>
+            <p>📱 Perfect for bedside clock or while charging</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
